@@ -1,5 +1,5 @@
 ---
-title: "Other Title"
+title: "New Title"
 author: "Brooke Sevchik"
 format: html
 editor: visual
