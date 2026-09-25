@@ -1,5 +1,5 @@
 ---
-title: "hello.qmd"
+title: "Hello, conflicts"
 author: "Brooke Sevchik"
 format: html
 editor: visual
