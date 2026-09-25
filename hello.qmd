@@ -1,8 +1,11 @@
 ---
 title: "New Title"
 author: "Brooke Sevchik"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
+output-file: index.html
 ---
 
 # Problem Set 1
