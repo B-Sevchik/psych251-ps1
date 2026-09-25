@@ -1,0 +1,14 @@
+---
+title: "hello.qmd"
+author: "Brooke Sevchik"
+format: html
+editor: visual
+---
+
+# Problem Set 1
+
+```{r}
+#first code chunk
+test_variable <- 1+1
+print(test_variable)
+```
