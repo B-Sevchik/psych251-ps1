@@ -11,4 +11,8 @@ editor: visual
 #first code chunk
 test_variable <- 1+1
 print(test_variable)
+
+#second operation
+second_test_variable <- test_variable + 2
+print(second_test_variable)
 ```
