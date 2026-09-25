@@ -16,3 +16,25 @@ print(test_variable)
 second_test_variable <- test_variable + 2
 print(second_test_variable)
 ```
+
+```{r}
+#add ggplot
+library(ggplot2)
+
+#fake data
+temp_ice_cream <- data.frame(
+  temperature = c(30, 40, 50, 60, 70, 80, 90, 100), #temperature in Fahrenheit
+  ice_cream_sales = c(2, 6, 8, 50, 65, 78, 90, 110) #number of ice cream cones sold at ice cream truck
+)
+
+#basic scatter plot from fake data
+ggplot(temp_ice_cream, aes(x = temperature, y = ice_cream_sales)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Correlation between temperature and ice cream sales",
+    x = "Temperature (degrees Fahrenheit)",
+    y = "Ice Cream Sales (number of ice cream cones sold)"
+  ) +
+  theme_minimal()
+```
